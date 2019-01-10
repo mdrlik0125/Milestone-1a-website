@@ -1,0 +1,186 @@
+/****** BASE STYLES ******/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #095156;
+}
+
+
+
+/****** GRID ******/
+
+.full-width{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 700px;
+	float: left;
+}
+
+.third-width{
+	width: 466px;
+	float: left;
+}
+
+
+
+/****** HEADER ******/
+
+header .full-width{
+  background: no-repeat url(../images-icons/hero-image.png);
+	background-size: cover;
+  height: 800px;
+}
+
+header h1{
+  margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+  font-weight: bold;
+	color: #bdbf09;
+  padding: 350px 300px 0 300px;
+  text-align: center;
+}
+
+header p{
+  margin: 0;
+  font-size: 48px;
+  padding: 50px 300px 0 300px;
+  text-align: center;
+}
+
+
+
+/****** PORTFOLIO SECTION ******/
+
+#portfolio .full-width{
+  height: 1450px;
+}
+
+#portfolio .half-width{
+  height: 350px;
+  padding-top: 55px;
+}
+
+#portfolio h2{
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 50px 0 60px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#portfolio h3{
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-right: 100px;
+  text-transform: capitalize;
+}
+
+#portfolio p{
+  margin: 0;
+  padding-bottom: 30px;
+  padding-right: 100px;
+}
+
+#portfolio img{
+  margin: 0;
+  padding-left: 100px;
+}
+
+
+
+/****** ABOUT SECTION ******/
+
+#about .full-width{
+  height: 650px;
+  background-color: #087e8b;
+}
+
+#about h2{
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 125px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#about h3{
+  margin: 0;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#about p{
+  margin: 0;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+#about img{
+  margin: 0;
+  padding-left: 100px;
+}
+
+
+
+/****** CONTACT SECTION ******/
+
+#contact .full-width{
+	height: 450px;
+  background-color: #095156;
+}
+
+#contact h2{
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#contact h3{
+  margin: 0;
+  padding-bottom: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact p{
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact p.foot{
+  padding-top: 200px;
+}
+
+#contact a.first{
+  padding-left: 108px;
+}
+
+#contact a{
+  padding-left: 50px;
+}
+
+#contact a img{
+  border-radius: 27px;
+}
